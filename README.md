@@ -5,7 +5,7 @@ fetch quotation of stock list
 # Usage
 
 ```
-from xq import *
+from xueqiu import *
 
 fastman = FastmanXQ()
 print fastman.get_quotes(["000001","600000"])
